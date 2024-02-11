@@ -1,0 +1,26 @@
+{
+  "root": true,
+  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": [".eslinttypescriptrc.json"],
+    "sourceType": "module",
+    "ecmaVersion": 14,
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "plugins": [
+    "@typescript-eslint",
+    "react"
+  ],
+  "ignorePatterns": ["node_modules", "lib"],
+  "env": {
+    "browser": true,
+    "es2022": true,
+    "jest": true
+  },
+  "settings": {},
+  "overrides": [],
+  "rules": {}
+}

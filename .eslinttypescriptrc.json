@@ -1,0 +1,16 @@
+{
+  "extends": "./.typescriptrc.json",
+  "references": [
+    {
+      "path": "./.typescriptrc.json"
+    }
+  ],
+  "include": ["src/**/*.ts", "src/**/*.tsx", "test/**/*.ts"],
+  "exclude": [],
+  "compilerOptions": {
+    "rootDir": ".",
+    "rootDirs": ["."],
+    "emitDecoratorMetadata": false,
+    "noEmit": true
+  }
+}
