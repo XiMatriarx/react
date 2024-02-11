@@ -1,0 +1,5 @@
+{
+  "*.{ts,tsx}": "eslint src test",
+  "*.{json,ts,tsx}": "prettier --write",
+  "*.{ts,tsx}": "jest --config .jestrc.json"
+}

@@ -1,0 +1,17 @@
+{
+  "extends": "./.typescriptrc.json",
+  "references": [
+    {
+      "path": "./.typescriptrc.json"
+    }
+  ],
+  "include": ["src/**/**.ts", "src/**/*.tsx", "test/**/*.ts"],
+  "exclude": [],
+  "compilerOptions": {
+    "types": ["jest"],
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "noEmitOnError": false,
+    "verbatimModuleSyntax": false
+  }
+}
