@@ -65,7 +65,7 @@ jobs:
           projectBaseDir: .
           args: >
             -Dsonar.organization=ximatriarx
-            -Dsonar.projectKey=XiMatriarx_typescript
+            -Dsonar.projectKey=XiMatriarx_react
             -Dsonar.sources=src
             -Dsonar.tests=test
             -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info

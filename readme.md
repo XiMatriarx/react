@@ -70,9 +70,9 @@ A minimalistic React project template preconfigured with ESLint, Prettier, Jest,
 
 <p>
   <img src="https://img.shields.io/github/commit-activity/t/XiMatriarx/react?style=flat&logo=GitHub&label=Commits&labelColor=404040&color=800080" alt="Commits (Total)">
-  <img src="https://img.shields.io/github/commit-activity/y/XiMatriarx/react?style=flat&logo=GitHub&label=Commits&labelColor=404040&color=800080" alt="Commits (Year)">
-  <img src="https://img.shields.io/github/commit-activity/m/XiMatriarx/react?style=flat&logo=GitHub&label=Commits&labelColor=404040&color=800080" alt="Commits (Month)">
   <img src="https://img.shields.io/github/commit-activity/w/XiMatriarx/react?style=flat&logo=GitHub&label=Commits&labelColor=404040&color=800080" alt="Commits (Week)">
+  <img src="https://img.shields.io/github/commit-activity/m/XiMatriarx/react?style=flat&logo=GitHub&label=Commits&labelColor=404040&color=800080" alt="Commits (Month)">
+  <img src="https://img.shields.io/github/commit-activity/y/XiMatriarx/react?style=flat&logo=GitHub&label=Commits&labelColor=404040&color=800080" alt="Commits (Year)">
   <img src="https://img.shields.io/github/commits-since/XiMatriarx/react/latest?sort=semver&style=flat&logo=GitHub&label=Release%20Commits&labelColor=404040&color=800080" alt="Release Commits">
 </p>
 

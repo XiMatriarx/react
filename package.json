@@ -23,11 +23,12 @@
   "main": "lib/index.js",
   "scripts": {
     "start": "node lib/index.js",
-    "build": "tsc --project .typescriptrc.json",
-    "dev": "tsc --project .typescriptrc.json --watch",
+    "build": "webpack --config webpackrc.js --env production",
+    "dev": "webpack serve --config webpackrc.js",
     "lint": "eslint src test",
-    "style": "prettier --write 'src/**/*.{json,ts,jsx}' 'test/**/*.{json,ts,jsx}'",
+    "style": "prettier --write 'src/**/*.{json,ts,tsx}' 'test/**/*.{json,ts,tsx}'",
     "test": "jest --config .jestrc.json",
+    "docker": "docker builder build . -t react && docker run react",
     "init": "husky hooks"
   },
   "bin": {
@@ -129,18 +130,37 @@
   "usage": false,
   "versions": false,
   "workspace-update": true,
+  "dependencies": {
+    "@types/node": "^20.11.17",
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "css-loader": "^6.10.0",
+    "dotenv": "^16.4.2",
+    "html-webpack-plugin": "^5.6.0",
+    "mini-css-extract-plugin": "^2.8.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.70.0",
+    "sass-loader": "^14.1.0",
+    "style-loader": "^3.3.4",
+    "terser-webpack-plugin": "^5.3.10",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "webpack": "^5.90.1",
+    "webpack-cli": "^5.1.4"
+  },
   "devDependencies": {
     "@types/jest": "^29.5.12",
-    "@types/node": "^20.11.17",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-react": "^7.33.2",
     "husky": "^9.0.10",
     "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
     "lint-staged": "^15.2.2",
     "prettier": "^3.2.5",
     "ts-jest": "^29.1.2",
-    "typescript": "^5.3.3"
+    "webpack-dev-server": "^5.0.0"
   }
 }
