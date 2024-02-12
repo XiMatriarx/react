@@ -10,10 +10,7 @@
       "jsx": true
     }
   },
-  "plugins": [
-    "@typescript-eslint",
-    "react"
-  ],
+  "plugins": ["@typescript-eslint", "react"],
   "ignorePatterns": ["node_modules", "lib"],
   "env": {
     "browser": true,
@@ -22,5 +19,7 @@
   },
   "settings": {},
   "overrides": [],
-  "rules": {}
+  "rules": {
+    "@typescript-eslint/no-unused-vars": "off"
+  }
 }

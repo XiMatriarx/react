@@ -15,6 +15,9 @@ test
 .lintstagedrc.json
 .prettierrc.json
 .typescriptrc.json
+.webpackrc.js
+.devwebpackrc.js
 citation.cff
 codeowners
+dockerfile
 license
