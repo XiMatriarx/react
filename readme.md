@@ -2,7 +2,7 @@
 
 <p align="center">A React project template.</p>
 
-A minimalistic React project template preconfigured with ESLint, Prettier, Jest, Lint-Staged, Husky and Webpack.
+A minimalistic React project template preconfigured with ESLint, Prettier, Jest, Lint-Staged, Husky and Webpack.  
 
 ## Status
 
@@ -87,19 +87,19 @@ A minimalistic React project template preconfigured with ESLint, Prettier, Jest,
 ## Setup
 
 - `npx @XiMatriarx/react init`
-- Use it as a GitHub repository template.
-- Clone it using `git clone https://github.com/XiMatriarx/react.git`.
-- Use `bin/init.sh` to create repositories.
+- Use it as a GitHub repository template.  
+- Clone it using `git clone https://github.com/XiMatriarx/react.git`.  
+- Use `bin/init.sh` to create repositories.  
 
 ## Usage
 
-- `npm start` ~ Start project.
-- `npm run build` ~ Build project.
-- `npm run dev` ~ Build project in watch mode.
-- `npm run lint` ~ Lint codebase using ESLint.
-- `npm run style` ~ Style codebase using Prettier.
-- `npm test` ~ Test codebase using Jest.
-- `npm run init` ~ Initialize Husky git hooks for Lint-staged.
+- `npm start` ~ Start project.  
+- `npm run build` ~ Build project.  
+- `npm run dev` ~ Build project in watch mode.  
+- `npm run lint` ~ Lint codebase using ESLint.  
+- `npm run style` ~ Style codebase using Prettier.  
+- `npm test` ~ Test codebase using Jest.  
+- `npm run init` ~ Initialize Husky git hooks for Lint-staged.  
 
 ## Documentation
 
