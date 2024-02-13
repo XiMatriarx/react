@@ -5,9 +5,12 @@
       "path": "./.typescriptrc.json"
     }
   ],
-  "include": ["src/**/*.tsx", "src/**/**.ts", "test/**/*.tsx", "test/**/*.ts"],
+  "include": ["src/**/**.ts", "src/**/*.tsx", "test/**/*.ts"],
+  "exclude": [],
   "compilerOptions": {
+    "types": ["jest"],
     "allowImportingTsExtensions": true,
+    "noEmit": true,
     "noEmitOnError": false,
     "verbatimModuleSyntax": false
   }

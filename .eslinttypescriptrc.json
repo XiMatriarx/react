@@ -5,8 +5,12 @@
       "path": "./.typescriptrc.json"
     }
   ],
-  "include": ["src/**/*.tsx", "src/**/*.ts", "test/**/*.tsx", "test/**/*.ts"],
+  "include": ["src/**/*.ts", "src/**/*.tsx", "test/**/*.ts"],
+  "exclude": [],
   "compilerOptions": {
-    "rootDir": "."
+    "rootDir": ".",
+    "rootDirs": ["."],
+    "emitDecoratorMetadata": false,
+    "noEmit": true
   }
 }
