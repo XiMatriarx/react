@@ -1,5 +1,4 @@
-node_modules
-lib
-build
-coverage
 cache
+coverage
+lib
+node_modules
