@@ -1,11 +1,11 @@
-cache
-coverage
-lib
 node_modules
+lib
+build
+coverage
+cache
 src
 test
 
-.devwebpackrc.json
 .editorconfig
 .eslintrc.json
 .eslinttypescriptrc.json
@@ -15,7 +15,8 @@ test
 .lintstagedrc.json
 .prettierrc.json
 .typescriptrc.json
-.webpackrc.json
+.webpackrc.js
+.devwebpackrc.js
 citation.cff
 codeowners
 dockerfile
