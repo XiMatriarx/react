@@ -1,12 +1,6 @@
 {
   "root": true,
-  "extends": [
-    "eslint:recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:react/recommended"
-  ],
-  "ignorePatterns": ["node_modules", "lib"],
-  "plugins": ["@typescript-eslint", "react"],
+  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "project": [".eslinttypescriptrc.json"],
@@ -16,6 +10,8 @@
       "jsx": true
     }
   },
+  "plugins": ["@typescript-eslint", "react"],
+  "ignorePatterns": ["node_modules", "lib"],
   "env": {
     "browser": true,
     "es2022": true,
