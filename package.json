@@ -23,10 +23,10 @@
   "main": "lib/index.js",
   "scripts": {
     "start": "node lib/index.js",
-    "build": "webpack --config webpackrc.js --env production",
-    "dev": "webpack serve --config webpackrc.js",
+    "build": "webpack --config .webpackrc.js",
+    "dev": "webpack serve --config .devwebpackrc.js",
     "lint": "eslint src test",
-    "style": "prettier --write 'src/**/*.{json,ts,tsx}' 'test/**/*.{json,ts,tsx}'",
+    "style": "prettier --write . --ignore-unknown",
     "test": "jest --config .jestrc.json",
     "docker": "docker builder build . -t react && docker run react",
     "init": "husky hooks"
@@ -151,7 +151,7 @@
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",
-    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.1",
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-react": "^7.33.2",
