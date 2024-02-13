@@ -5,12 +5,12 @@
       "path": "./.typescriptrc.json"
     }
   ],
-  "include": ["src/**/*.ts", "src/**/*.tsx", "test/**/*.ts"],
-  "exclude": [],
+  "include": ["src/**/*.tsx", "src/**/*.ts", "test/**/*.ts"],
   "compilerOptions": {
+    "emitDecoratorMetadata": false,
+    "noEmit": true,
     "rootDir": ".",
     "rootDirs": ["."],
-    "emitDecoratorMetadata": false,
-    "noEmit": true
+    "types": ["node", "react", "react-dom", "jest"]
   }
 }

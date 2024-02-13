@@ -5,13 +5,12 @@
       "path": "./.typescriptrc.json"
     }
   ],
-  "include": ["src/**/**.ts", "src/**/*.tsx", "test/**/*.ts"],
-  "exclude": [],
+  "include": ["src/**/*.tsx", "src/**/**.ts", "test/**/*.ts"],
   "compilerOptions": {
-    "types": ["jest"],
     "allowImportingTsExtensions": true,
     "noEmit": true,
     "noEmitOnError": false,
+    "types": ["node", "react", "react-dom", "jest"],
     "verbatimModuleSyntax": false
   }
 }
