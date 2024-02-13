@@ -4,14 +4,23 @@
   "cacheDirectory": "cache",
   "clearMocks": true,
   "collectCoverage": true,
-  "collectCoverageFrom": ["src/**/*.ts", "src/**/*.tsx"],
+  "collectCoverageFrom": ["src/**/*.tsx", "src/**/*.ts"],
   "coverageDirectory": "coverage",
   "coveragePathIgnorePatterns": ["node_modules", "lib"],
   "coverageProvider": "v8",
   "coverageReporters": ["json", "text", "lcov", "clover"],
-  // "coverageThreshold": undefined,
+  "coverageThreshold": {
+    "global": {
+      "branches": 100,
+      "functions": 100,
+      "lines": 100,
+      "statements": 0
+    }
+  },
   // "dependencyExtractor": undefined,
+  // "displayName": undefined,
   "errorOnDeprecated": false,
+  "extensionsToTreatAsEsm": [".tsx", ".ts"],
   "fakeTimers": {
     "enableGlobally": false
   },
@@ -19,37 +28,53 @@
   "globals": {},
   // "globalSetup": undefined,
   // "globalTeardown": undefined,
+  // "haste": undefined,
+  "maxConcurrency": 10,
   "maxWorkers": "50%",
   "moduleDirectories": ["node_modules", "src"],
   "moduleFileExtensions": ["tsx", "ts", "js", "json"],
   "moduleNameMapper": {},
   "modulePathIgnorePatterns": [],
+  "modulePaths": [],
   "notify": false,
   "notifyMode": "failure-change",
+  "openHandlesTimeout": 1000,
   "preset": "ts-jest",
+  "prettierPath": "prettier",
+  "randomize": false,
   // "projects": undefined,
   // "reporters": undefined,
   "resetMocks": false,
   "resetModules": false,
   // "resolver": undefined,
   "restoreMocks": false,
-  // "rootDir": undefined,
+  "rootDir": ".",
   "roots": ["<rootDir>"],
   "runner": "jest-runner",
+  // "sandboxInjectedGlobals": undefined,
   "setupFiles": [],
   "setupFilesAfterEnv": [],
-  "slowTestThreshold": 5,
+  "showSeed": false,
+  "slowTestThreshold": 2000,
+  "snapshotFormat": {
+    "escapeString": false,
+    "printBasicPrototype": false
+  },
+  // "snapshotResolver": undefined,
   "snapshotSerializers": [],
   "testEnvironment": "jsdom",
   "testEnvironmentOptions": {},
+  "testFailureExitCode": 1,
   "testLocationInResults": false,
-  "testMatch": ["<rootDir>/test/**/*.ts"],
+  "testMatch": ["<rootDir>/test/**/*.tsx", "<rootDir>/test/**/*.ts"],
   "testPathIgnorePatterns": ["node_modules"],
   "testRegex": [],
   // "testResultsProcessor": undefined,
   "testRunner": "jest-circus/runner",
+  "testSequencer": "@jest/test-sequencer",
+  "testTimeout": 2,
   "transform": {
-    "^.+\\.ts$": [
+    "^.+\\.tsx?$": [
       "ts-jest",
       {
         "tsconfig": ".jesttypescriptrc.json"
@@ -60,5 +85,7 @@
   // "unmockedModulePathPatterns": undefined,
   // "verbose": undefined,
   "watchPathIgnorePatterns": [],
-  "watchman": true
+  "watchPlugins": [],
+  "watchman": true,
+  "workerThreads": false
 }

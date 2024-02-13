@@ -435,7 +435,7 @@ const config = {
     enforceExtension: false,
     exportsFields: ['exports'],
     extensionAlias: {},
-    extensions: ['.tsx', '.ts', '.js', '.json', ' scss'],
+    extensions: ['.tsx', '.ts', '.js', '.json', '.scss'],
     fallback: {
       // assert: require.resolve('assert'),
       // buffer: require.resolve('buffer'),
