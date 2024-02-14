@@ -99,6 +99,7 @@ A minimalistic React project template preconfigured with ESLint, Prettier, Jest,
 - `npm run lint` ~ Lint codebase using ESLint.
 - `npm run style` ~ Style codebase using Prettier.
 - `npm test` ~ Test codebase using Jest.
+- `npm run docker` ~ Build project using Docker.
 - `npm run init` ~ Initialize Husky git hooks for Lint-staged.
 
 ## Documentation
