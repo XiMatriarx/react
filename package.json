@@ -1,6 +1,6 @@
 {
   "name": "@ximatriarx/react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "React",
   "keywords": [
     "Xi",
@@ -28,7 +28,7 @@
     "lint": "eslint src test",
     "style": "prettier --write . --ignore-unknown",
     "test": "jest --config .jestrc.json",
-    "docker": "docker builder build . -t react && docker run react",
+    "docker": "docker builder build --build-arg='PORT=80' . -t react && docker run -p 80:80 react",
     "init": "husky hooks"
   },
   "bin": {
