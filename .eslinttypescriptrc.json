@@ -7,6 +7,7 @@
   ],
   "include": ["src/**/*.tsx", "src/**/*.ts", "test/**/*.tsx", "test/**/*.ts"],
   "compilerOptions": {
-    "rootDir": "."
+    "rootDir": ".",
+    "types": ["node", "jest", "react", "react-dom", "react-dom/client"]
   }
 }

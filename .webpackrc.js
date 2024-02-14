@@ -370,6 +370,7 @@ const config = {
       excludeChunks: '',
       xhtml: false,
     }),
+    new MiniCssExtractPlugin(),
   ],
   profile: true,
   recordsInputPath: path.join(directory, 'cache', 'records.json'),
