@@ -59,7 +59,7 @@
     "noImplicitThis": true,
     "noLib": false,
     "noPropertyAccessFromIndexSignature": true,
-    "noResolve": true,
+    "noResolve": false,
     "noUncheckedIndexedAccess": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
