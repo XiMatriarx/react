@@ -268,7 +268,7 @@ const config = {
     auxiliaryComment: undefined,
     charset: false,
     chunkFilename: '[id].js',
-    chunkFormat: 'module',
+    chunkFormat: 'commonjs', // module
     chunkLoadTimeout: 60000,
     chunkLoadingGlobal: 'webpackChunkwebpack',
     chunkLoading: undefined,
