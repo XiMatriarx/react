@@ -118,7 +118,7 @@ const config = {
       import: path.join(directory, 'src', 'index.tsx'),
       filename: '[contenthash].js',
       dependOn: undefined,
-      chunkLoading: 'import',
+      chunkLoading: 'jsonp', // import
       asyncChunks: true,
       layer: undefined,
     },
