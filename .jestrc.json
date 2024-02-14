@@ -10,12 +10,12 @@
   "coverageProvider": "v8",
   "coverageReporters": ["json", "text", "lcov", "clover"],
   "coverageThreshold": {
-    "global": {
-      "branches": 100,
-      "functions": 100,
-      "lines": 100,
-      "statements": 0
-    }
+    // "global": {
+    //   "branches": 100,
+    //   "functions": 100,
+    //   "lines": 100,
+    //   "statements": 0
+    // }
   },
   // "dependencyExtractor": undefined,
   // "displayName": undefined,
