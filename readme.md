@@ -2,7 +2,7 @@
 
 <p align="center">A React project template.</p>
 
-A minimalistic React project template preconfigured with ESLint, Prettier, Jest, Lint-Staged, Husky and Webpack.
+A minimalistic React project template preconfigured with TypeScript, ESLint, Prettier, Jest, Lint-Staged, Husky and Webpack.
 
 ## Status
 
