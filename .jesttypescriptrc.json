@@ -7,7 +7,6 @@
   ],
   "include": ["src/**/*.tsx", "src/**/**.ts", "test/**/*.tsx", "test/**/*.ts"],
   "compilerOptions": {
-    "allowImportingTsExtensions": true,
     "noEmitOnError": false,
     "types": ["node", "jest", "react", "react-dom", "react-dom/client"],
     "verbatimModuleSyntax": false
