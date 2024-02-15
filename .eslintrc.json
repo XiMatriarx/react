@@ -21,7 +21,15 @@
     "es2022": true,
     "jest": true
   },
-  "settings": {},
+  "settings": {
+    "react": {
+      "createClass": "createReactClass",
+      "pragma": "React",
+      "fragment": "Fragment",
+      "version": "detect",
+      "flowVersion": "0.53"
+    }
+  },
   "overrides": [],
   "rules": {
     "@typescript-eslint/no-unused-vars": "off"
