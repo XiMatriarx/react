@@ -68,7 +68,7 @@ jobs:
             -Dsonar.projectKey=XiMatriarx_react
             -Dsonar.sources=src
             -Dsonar.tests=test
-            -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info
+            -Dsonar.javascript.lcov.reportPaths=cache/coverage/lcov.info
             -Dsonar.verbose=true
   test:
     runs-on: ubuntu-latest
