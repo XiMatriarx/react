@@ -15,7 +15,6 @@ test
 .jesttypescriptrc.json
 .lintstagedrc.json
 .prettierrc.json
-.swcrc.json
 .typescriptrc.json
 .webpackrc.json
 citation.cff

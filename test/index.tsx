@@ -1,4 +1,4 @@
-import '../src/index.tsx'
+import '../src/index'
 
 describe('Index', () => {
   test('Snapshot', async () => {
