@@ -225,7 +225,10 @@ const config = {
         test: /\.tsx?$/,
         use: [
           {
-            loader: 'swc-loader',
+            loader: 'ts-loader',
+            options: {
+              configFile: '.typescriptrc.json',
+            },
           },
         ],
       },

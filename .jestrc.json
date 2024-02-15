@@ -33,13 +33,15 @@
   "maxWorkers": "50%",
   "moduleDirectories": ["node_modules", "src"],
   "moduleFileExtensions": ["tsx", "ts", "js", "json"],
-  "moduleNameMapper": {},
+  "moduleNameMapper": {
+    "^(\\.{1,2}/.+)\\.js$": "$1"
+  },
   "modulePathIgnorePatterns": [],
   "modulePaths": [],
   "notify": false,
   "notifyMode": "failure-change",
   "openHandlesTimeout": 1000,
-  // "preset": undefined,
+  "preset": "ts-jest",
   "prettierPath": "prettier",
   "randomize": false,
   // "projects": undefined,
@@ -74,7 +76,13 @@
   "testSequencer": "@jest/test-sequencer",
   "testTimeout": 2,
   "transform": {
-    "^.+\\.tsx?$": ["@swc/jest"]
+    "^.+\\.tsx?$": [
+      "ts-jest",
+      {
+        "useESM": true,
+        "tsconfig": ".jesttypescriptrc.json"
+      }
+    ]
   },
   "transformIgnorePatterns": ["node_modules"],
   // "unmockedModulePathPatterns": undefined,
