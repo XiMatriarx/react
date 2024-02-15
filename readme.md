@@ -2,7 +2,7 @@
 
 <p align="center">A React project template.</p>
 
-A minimalistic React project template preconfigured with TypeScript, ESLint, Prettier, Jest, Lint-Staged, Husky and Webpack.
+A minimalistic React project template preconfigured with TypeScript, SWC, ESLint, Prettier, Jest, Lint-Staged, Husky and Webpack.
 
 ## Status
 
@@ -93,13 +93,13 @@ A minimalistic React project template preconfigured with TypeScript, ESLint, Pre
 
 ## Usage
 
-- `npm start` ~ Start project.
-- `npm run build` ~ Build project.
-- `npm run dev` ~ Build project in watch mode.
-- `npm run lint` ~ Lint codebase using ESLint.
-- `npm run style` ~ Style codebase using Prettier.
-- `npm test` ~ Test codebase using Jest.
-- `npm run docker` ~ Build project using Docker.
+- `npm start` ~ Start the project.
+- `npm run build` ~ Build the project.
+- `npm run dev` ~ Build the project in watch mode.
+- `npm run lint` ~ Lint the codebase using ESLint.
+- `npm run style` ~ Style the codebase using Prettier.
+- `npm test` ~ Test the codebase using Jest.
+- `npm run docker` ~ Build the project using Docker.
 - `npm run init` ~ Initialize Husky git hooks for Lint-staged.
 
 ## Documentation
