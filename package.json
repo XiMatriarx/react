@@ -1,6 +1,6 @@
 {
   "name": "@ximatriarx/react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React project template",
   "keywords": [
     "Xi",
@@ -131,6 +131,7 @@
   "versions": false,
   "workspace-update": true,
   "dependencies": {
+    "@swc/core": "^1.4.1",
     "@types/node": "^20.11.17",
     "@types/react": "^18.2.55",
     "@types/react-dom": "^18.2.19",
@@ -143,13 +144,14 @@
     "sass": "^1.70.0",
     "sass-loader": "^14.1.0",
     "style-loader": "^3.3.4",
+    "swc-loader": "^0.2.6",
     "terser-webpack-plugin": "^5.3.10",
-    "ts-loader": "^9.5.1",
     "typescript": "^5.3.3",
     "webpack": "^5.90.1",
     "webpack-cli": "^5.1.4"
   },
   "devDependencies": {
+    "@swc/jest": "^0.2.36",
     "@types/jest": "^29.5.12",
     "@typescript-eslint/eslint-plugin": "^7.0.1",
     "eslint": "^8.56.0",
@@ -160,7 +162,6 @@
     "jest-environment-jsdom": "^29.7.0",
     "lint-staged": "^15.2.2",
     "prettier": "^3.2.5",
-    "ts-jest": "^29.1.2",
     "webpack-dev-server": "^5.0.0"
   }
 }

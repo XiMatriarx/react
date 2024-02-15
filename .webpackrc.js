@@ -165,10 +165,7 @@ const config = {
         test: /\.tsx?$/,
         use: [
           {
-            loader: 'ts-loader',
-            options: {
-              configFile: '.typescriptrc.json',
-            },
+            loader: 'swc-loader',
           },
         ],
       },
