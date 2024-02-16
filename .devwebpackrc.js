@@ -56,7 +56,7 @@ const config = {
         hostname: '0.0.0.0',
         pathname: '/ws',
         password: '',
-        port: 4000,
+        port: process.env.PORT,
         protocol: 'ws',
         username: 'webpack',
       },
