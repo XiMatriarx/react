@@ -83,10 +83,10 @@ const config = {
     open: true,
     port: process.env.PORT,
     proxy: [],
-    server: {
-      type: 'https',
-      options: {},
-    },
+    // server: {
+    //   type: 'https',
+    //   options: {},
+    // },
     setupExitSignals: true,
     setupMiddlewares: undefined,
     static: {
