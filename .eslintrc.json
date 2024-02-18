@@ -9,7 +9,7 @@
   "plugins": ["@typescript-eslint", "react"],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
-    "project": [".eslinttypescriptrc.json"],
+    "project": [".typescriptrc.json", ".eslinttypescriptrc.json"],
     "sourceType": "module",
     "ecmaVersion": 14,
     "ecmaFeatures": {
