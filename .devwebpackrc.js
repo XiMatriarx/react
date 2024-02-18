@@ -80,13 +80,13 @@ const config = {
     ipc: undefined,
     liveReload: false,
     onListening: undefined,
-    open: true,
+    open: false,
     port: process.env.PORT,
     proxy: [],
-    // server: {
-    //   type: 'https',
-    //   options: {},
-    // },
+    server: {
+      // type: 'https',
+      // options: {},
+    },
     setupExitSignals: true,
     setupMiddlewares: undefined,
     static: {

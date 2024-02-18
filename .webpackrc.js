@@ -174,7 +174,18 @@ const config = {
       },
       {
         test: /\.s?css$/,
-        use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
+        use: [
+          {
+            loader: MiniCssExtractPlugin.loader,
+            options: {
+              publicPath: '/',
+              emit: true,
+              esModule: true,
+            },
+          },
+          'css-loader',
+          'sass-loader',
+        ],
       },
       {
         test: /\.(svg|png|jpg|gif|eot|ttf|woff|woff2)$/,
@@ -371,12 +382,13 @@ const config = {
       xhtml: false,
     }),
     new MiniCssExtractPlugin({
-      filename: '[contenthash].css',
-      chunkFilename: undefined,
+      chunkFilename: '[name].css',
       ignoreOrder: false,
       insert: undefined,
-      attributes: {},
+      attributes: undefined,
       linkType: 'text/css',
+      runtime: true,
+      experimentalUseImportModule: undefined,
     }),
   ],
   profile: true,

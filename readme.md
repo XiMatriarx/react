@@ -46,14 +46,14 @@ A minimalistic React project template preconfigured with TypeScript, ESLint, Pre
 ## Info
 
 <p>
-  <img src="https://img.shields.io/badge/Versioning-SemVer-404040?style=flat&label=Versioning&labelColor=404040&color=800080" alt="Versioning">
-  <img src="https://img.shields.io/badge/License-MIT-404040?style=flat&label=License&labelColor=404040&color=800080" alt="License">
-</p>
-
-<p>
   <img src="https://img.shields.io/github/v/release/XiMatriarx/react?sort=semver&style=flat&logo=GitHub&label=Release&labelColor=404040&color=800080" alt="Release">
   <img src="https://img.shields.io/github/release-date/XiMatriarx/react?style=flat&logo=GitHub&label=Release%20Date&labelColor=404040&color=800080" alt="Release Date">
   <img src="https://img.shields.io/github/v/tag/XiMatriarx/react?sort=semver&style=flat&logo=GitHub&label=Tag&labelColor=404040&color=800080" alt="Tag">
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Versioning-SemVer-404040?style=flat&label=Versioning&labelColor=404040&color=800080" alt="Versioning">
+  <img src="https://img.shields.io/badge/License-MIT-404040?style=flat&label=License&labelColor=404040&color=800080" alt="License">
 </p>
 
 ## Statistics
