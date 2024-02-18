@@ -89,7 +89,7 @@ A minimalistic React project template preconfigured with TypeScript, ESLint, Pre
 - `npx @ximatriarx/react init`
 - Use it as a GitHub repository template.
 - Clone it using `git clone https://github.com/XiMatriarx/react.git`.
-- Use `bin/init.sh` to create repositories.
+- Use `bin/init.sh` to create projects.
 
 ## Usage
 
