@@ -76,7 +76,7 @@
   "testSequencer": "@jest/test-sequencer",
   "testTimeout": 2,
   "transform": {
-    "^.+\\.tsx?$": [
+    "^.+\\.[jt]sx?$": [
       "ts-jest",
       {
         "useESM": true,

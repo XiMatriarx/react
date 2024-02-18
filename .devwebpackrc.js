@@ -417,7 +417,7 @@ const config = {
   recordsPath: path.join(directory, 'cache', 'records.json'),
   resolve: {
     alias: {
-      '@source': path.join(directory, 'src'),
+      '@app': path.join(directory, 'src'),
     },
     aliasFields: ['browser'],
     byDependency: {
