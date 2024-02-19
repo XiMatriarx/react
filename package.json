@@ -1,6 +1,6 @@
 {
   "name": "@ximatriarx/react",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "A React project template",
   "keywords": [
     "Xi",
@@ -131,8 +131,8 @@
   "versions": false,
   "workspace-update": true,
   "dependencies": {
-    "@types/node": "^20.11.18",
-    "@types/react": "^18.2.55",
+    "@types/node": "^20.11.19",
+    "@types/react": "^18.2.56",
     "@types/react-dom": "^18.2.19",
     "css-loader": "^6.10.0",
     "dotenv": "^16.4.2",
@@ -140,13 +140,13 @@
     "mini-css-extract-plugin": "^2.8.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "sass": "^1.70.0",
+    "sass": "^1.71.0",
     "sass-loader": "^14.1.0",
     "style-loader": "^3.3.4",
     "terser-webpack-plugin": "^5.3.10",
     "ts-loader": "^9.5.1",
     "typescript": "^5.3.3",
-    "webpack": "^5.90.1",
+    "webpack": "^5.90.3",
     "webpack-cli": "^5.1.4"
   },
   "devDependencies": {
@@ -161,6 +161,6 @@
     "lint-staged": "^15.2.2",
     "prettier": "^3.2.5",
     "ts-jest": "^29.1.2",
-    "webpack-dev-server": "^5.0.0"
+    "webpack-dev-server": "^5.0.2"
   }
 }

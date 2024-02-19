@@ -8,7 +8,7 @@ then
 	exit
 fi
 
-git clone https://github.com/XiMatriarx/react.git --depth 1 --branch 'v2.0.2'
+git clone https://github.com/XiMatriarx/react.git --depth 1 --branch 'v2.0.3'
 mv react $project
 cd $project
 rm -Rf .git
